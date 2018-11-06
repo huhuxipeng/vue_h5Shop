@@ -1,0 +1,30 @@
+// 字数超出不换行
+@mixin no-wrap{
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+//flex两端对齐
+@mixin flex-space-between{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+//flex等距
+@mixin flex-space-around{
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+}
+//flex不换行
+@mixin flex-no-wrap{
+  display: flex;
+  flex-wrap:nowrap;
+}
+//多层元素居中
+@mixin flexs-align-center{
+  display: flex;
+  align-content:center;
+}
+
+

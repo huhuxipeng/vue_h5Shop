@@ -1,0 +1,83 @@
+$mainCol:#333333;
+$leCole:#eeeeee;
+$leCol9:#999999;
+$leCol6:#666666;
+$redCol:#f22d07;
+$bgWhite:#ffffff;
+$bodyCol:#f5f5f5;
+$footerHeigh:1.3rem;
+
+.goods-footer-top{
+	height:$footerHeigh;
+}
+.goods-footer-buy{
+	color:$mainCol;
+	background:$bgWhite;
+	height:$footerHeigh;
+	position: fixed;
+	left:0;
+	bottom:0;
+	width:100%;
+	z-index: 10;
+	text-align:center;
+	span{
+		height:$footerHeigh;
+		font-size: 0.27rem;
+		position: relative;
+		z-index: 15;
+		border-right: $leCole 1px solid;
+		p{
+			display: block;
+		}
+	}
+	i{
+		height:$footerHeigh;
+		line-height: $footerHeigh;
+		font-size: 0.37rem;
+	}
+	.icons{
+		width: 0.48rem;
+		height: 0.48rem;
+		margin: 0.27rem 0 0.1rem 0;
+		display: inline-block;
+	}
+	.service{
+		width: 1.67rem;
+		display: inline-block;
+		.icons{
+			background-position: -0.53rem -1.22rem;;
+		}
+	}
+	.car{
+		width: 1.67rem;
+		display: inline-block;
+		.icons{
+			background-position: 0 -1.22rem;;
+		}
+		.number{
+			position: absolute;
+			left: 50%;
+			top: 0.15rem;
+			width: 0.34rem;
+			height: 0.34rem;
+			border-radius: 50rem;
+			background:$redCol;
+			color: $bgWhite;
+			text-align: center;
+			line-height: 0.38rem;
+			font-size: 0.2rem;
+		}
+	}
+	.addCar{
+		width: 3rem;
+		display: inline-block;
+		vertical-align: top;
+	}
+	.buyNow{
+		display: inline-block;
+		float: right;
+		width: 3.32rem;
+		background:$redCol;
+		color: $bgWhite;
+	}
+}

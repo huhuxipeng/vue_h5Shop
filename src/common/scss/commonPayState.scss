@@ -1,0 +1,70 @@
+$mainCol:#333333;
+$darkCol1b:#1b1b1b;
+$leCole:#eeeeee;
+$leCol9:#999999;
+$leCol6:#666666;
+$leColfa:#fafafa;
+$redCol:#f22d07;
+$redColfen:#ff403c;
+$bgWhite:#ffffff;
+$bodyCol:#f5f5f5;
+$topHeight:1.17rem;
+$bottomHeight:1.3rem;
+$totalPayH:1.3rem;
+$iconsUrlPay:url(../image/icons-pay.png) no-repeat;
+$iconsSizePay:7.13rem 2.67rem;
+
+.icons-pay{
+    background:$iconsUrlPay;
+    background-size:$iconsSizePay;
+    -webkit-background-size:$iconsSizePay;
+}
+.pay-state-page{
+	color:$mainCol;
+	background:$bgWhite;
+	padding-bottom:0.3rem;
+	a{
+		color: $mainCol;
+	}	
+	.state-bar{
+		text-align: center;
+		span{
+			width: 3.55rem;
+			height: 2.67rem;
+			display: inline-block;
+			margin: 1.2rem 0 0.4rem 0;
+		}
+		p{
+			font-size: 0.45rem;
+		}
+		button{
+			background:$redColfen;
+			color: $bgWhite;
+			text-align: center;
+			border-radius: 0.2rem;
+			padding:0.32rem 0;
+			width: 4rem;
+			font-size: 0.45rem;
+			border:none;
+			margin-top: 1.25rem;
+		}
+		&.success{
+			span{
+				background-position: 0 0;
+			}
+			p{
+				color: #e63d3a;
+			}
+		}
+		&.fail{
+			span{
+				background-position: -3.6rem 0;
+			}
+			p{
+				color: #b5b5b5;
+			}
+		}
+	}
+}
+
+

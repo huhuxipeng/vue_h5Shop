@@ -1,0 +1,31 @@
+@import "variable.scss";
+
+body, html {
+  line-height: 1;
+  font-family: arial, sans-serif, 'Droid Sans Fallback';
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  //background: $color-background;
+  color: $color-title;
+}
+
+a {
+  color: #666666;
+}
+
+.btn-left, .btn-right {
+  height: 9px;
+  width: 7px;
+  display: inline-block;
+}
+
+.btn-left {
+  background: url("../../common/image/btn_left.png") center no-repeat;
+  background-size: 100% 100%;
+
+}
+
+.btn-right {
+  background: url("../../common/image/btn_right.png") center no-repeat;
+  background-size: 100% 100%;
+}

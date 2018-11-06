@@ -1,0 +1,41 @@
+#vdist{
+	display: flex;
+}
+#vdist select{
+	font-size: .4rem;
+	padding: 0;
+	width:3.5rem;
+	margin-right: .1rem;
+	outline: none;
+}
+#vdist select:nth-child(1){
+	margin-right: .35rem;
+}
+.mint-switch{
+  display: inline !important;
+}
+.mint-switch-core {
+  vertical-align: middle;
+  display: inline-block;
+  position: relative;
+  width: 43px !important;
+  height: 22px !important;
+  border: 1px solid #d9d9d9;
+  border-radius: 16px;
+  box-sizing: border-box;
+  background: #d9d9d9;
+}
+.mint-switch-core::after {
+  width: 20px !important;
+  height: 20px !important;
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .4);
+}
+.mint-switch-core::before {
+  width: 42px !important;
+  height: 20px !important;
+  background-color: #fdfdfd;
+}
+.pimg p img{
+ width: 100%;
+}

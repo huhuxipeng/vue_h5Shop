@@ -1,0 +1,40 @@
+$mainCol:#333333;
+$leCole:#eeeeee;
+$leCol9:#999999;
+$leCol6:#666666;
+$redCol:#f22d07;
+$bgWhite:#ffffff;
+$bodyCol:#f5f5f5;
+.mint-indicator-wrapper{
+	z-index: 2019;
+}
+.goods-list-page{
+	color:$mainCol;
+	background:$bgWhite;
+	display: flex;
+	flex-direction: column;
+
+	.goods-list{
+	    li{
+	        // width: 48%;
+	        border:1px solid #eee;
+	       
+            h2{
+                margin-bottom: .2rem;
+                max-height: 1rem;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                display:-webkit-box;
+                -webkit-box-orient:vertical;
+                -webkit-line-clamp:2;
+                word-break: break-all; 
+            }
+	    }
+	    li:nth-child(2n+1){
+	        // margin-right:2.5%;
+	    }
+	}
+}
+.fit_panel{
+
+}
